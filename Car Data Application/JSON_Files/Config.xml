@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+  <FuelTypes>
+    <Gasoline PL="Benzyna" ENG="Gasoline"/>
+    <Diesel PL="Diesel" ENG="Diesel"/>
+    <LPG PL="LPG" ENG="LPG"/>
+  </FuelTypes>
+
+  <CostsTypes>
+    <Service PL="Serwis" ENG="Service"/>
+    <Exploitation PL="Eksploatacja" ENG="Exploitation"/>
+    <Tuning PL="Tuning" ENG="Tuning"/>
+    <Parking PL="Parking" ENG="Parking"/>
+    <Detailing PL="Detailing" ENG="Detailing"/>
+    <Fines PL="Mandaty" ENG="Fines"/>
+    <Insurance PL="Ubezpieczenie" ENG="Insurance"/>
+    <Inspection PL="Przegląd" ENG="Inspection"/>
+  </CostsTypes>
+  
+  <SidePanel>
+    <XMLButton PL="Zaloguj" ENG="Login" Name="LoginPage" IsEnabled="true" Icon="user.png"/>
+    <XMLButton PL="Moje Konto" ENG="My Account" Name="MyAccountPage" IsEnabled="false" Icon="user.png"/>
+    <XMLButton PL="Strona Główna" ENG="Home" Name="HomePage" IsEnabled="true" Icon="home.png"/>
+    <XMLButton PL="Pojazdy" ENG="Vehicles" Name="VehiclesPage" IsEnabled="true" Icon="car.png"/>
+    <XMLButton PL="Historia Tankowań" ENG="Refueling History" Name="RefuelingHistoryPage" IsEnabled="true" Icon="gas-station.png"/>
+    <XMLButton PL="Statystyki" ENG="Stats" Name="StatsPage" IsEnabled="true" Icon="stats.png"/>
+    <XMLButton PL="Dane" ENG="Data" Name="DataStatsPage" IsEnabled="true" Icon="stats.png" IsSmallButton = "true"/>
+    <XMLButton PL="Wykresy" ENG="Charts" Name="ChartsStatsPage" IsEnabled="true" Icon="stats.png" IsSmallButton = "true"/>
+    <XMLButton PL="Koszta" ENG="Costs" Name="CostsPage" IsEnabled="true" Icon="dollar.png"/>
+    <XMLButton PL="Kopia Zapasowa" ENG="Backup" Name="BackupPage" IsEnabled="true" Icon="cloud-upload.png"/>
+    <XMLButton PL="Kalkulator" ENG="Calculator" Name="CalculatorPage" IsEnabled="true" Icon="calculator.png"/>
+    <XMLButton PL="Ustawienia" ENG="Settings" Name="SettingsPage" IsEnabled="true" Icon="settings.png"/>
+  </SidePanel>
+
+  <MainPanel>
+    <AddButonList>
+      <AddRefueling PL="Dodaj Tankowanie" ENG="Add Refueling"/>
+      <AddCost PL="Dodaj Koszt" ENG="Add Cost"/>
+      <AddVehicle PL="Dodaj Pojazd" ENG="Add Vehicle"/>
+    </AddButonList>
+
+    <LoginPanel>
+      <LoginTitle PL="Logowanie" ENG="Login"/>
+      <UserName PL="Nazwa Użytkownika" ENG="Username"/>
+      <Password PL="Hasło" ENG="Password"/>
+      <LogInButton PL="Zaloguj" ENG="Login"/>
+      <RegisterButton PL="Zarejestruj" ENG="Register"/>
+    </LoginPanel>
+
+    <RegisterPanel>
+      <RegisterTitle PL="Rejestracja" ENG="Registration"/>
+      <UserName PL="Nazwa Użytkownika" ENG="Username"/>
+      <Password PL="Hasło" ENG="Password"/>
+      <RePassword PL="Powtórz Hasło" ENG="Confirm Password"/>
+      <Email PL="E-Mail" ENG="E-Mail"/>
+      <RegisterButton PL="Zarejestruj" ENG="Register"/>
+    </RegisterPanel>
+
+    <VehiclesPage>
+      <VehicleNameGrid>
+        <Brand PL="Marka:" ENG="Brand:"/>
+        <Model PL="Model:" ENG="Model:"/>
+      </VehicleNameGrid>
+      <PrimaryInfoGrid>
+        <YearOfManufacture PL="Rok Produkcji:" ENG="Year Of Manufacture:"/>
+        <Vin PL="Vin:" ENG="Vin:"/>
+        <Plates PL="Tablice Rejestracyjne:" ENG="Plates:"/>
+        <Millage PL="Przebieg:" ENG="Millage:"/>
+      </PrimaryInfoGrid>
+      <FuelTankInfoGrid>
+        <FuelTankInfoTitle PL="Pojemność Baków" ENG="Capacity Of Tanks"/>
+        <Gasoline PL="Benzyna:" ENG="Gasoline:"/>
+        <Diesel PL="Diesel:" ENG="Diesel:"/>
+        <LPG PL="LPG:" ENG="LPG:"/>
+      </FuelTankInfoGrid>
+      <CyclicalCostGrid>
+        <InsuranceTitle PL="Ubezpieczenie" ENG="Insurance"/>
+        <InsuranceStartDate PL="Początek:" ENG="Start Date:"/>
+        <InsuranceEndDate PL="Koniec:" ENG="End Date"/>
+        <InsurancePrice PL="Koszt:" ENG="Price:"/>
+        <InspectionTitle PL="Przegląd Techniczny" ENG="Technical Inspection"/>
+        <InspectionStartDate PL="Data Wykonania:" ENG="Last:"/>
+        <InspectionEndDate PL="Koniec Ważności:" ENG="Next:"/>
+        <InspectionPrice PL="Koszt:" ENG="Price:"/>
+      </CyclicalCostGrid>
+      <RemoveButton  PL="Usuń" ENG="Delete"/>
+    </VehiclesPage>
+
+    <AddVehiclePage>
+      <Title PL="DODAJ POJAZD:" ENG="ADD VEHICLE:"/>
+      <Brand PL="Marka:" ENG="Brand:"/>
+      <Model PL="Model:" ENG="Model:"/>
+      <YearOfManufacture PL="Rok Produkcji:" ENG="Year of Manufacture:"/>
+      <VIN PL="VIN:" ENG="VIN:"/>
+      <Plates PL="Tablice Rejestracyjne:" ENG="Plates:"/>
+      <VehicleMillage PL="Przebieg:" ENG="Millage:"/>
+      <GasolineTank PL="Benzyna" ENG="Gasoline"/>
+      <DieselTank PL="Diesel" ENG="Diesel"/>
+      <LPGTank PL="LPG" ENG="LPG"/>
+      <InsuranceTitle PL="Ubezpieczenie" ENG="Insurance"/>
+      <InsuranceStartDate PL="Początek:" ENG="Start Date:"/>
+      <InsuranceEndDate PL="Koniec:" ENG="End Date"/>
+      <InsurancePrice PL="Koszt:" ENG="Price:"/>
+      <InspectionTitle PL="Przegląd Techniczny" ENG="Technical Inspection"/>
+      <InspectionStartDate PL="Data Wykonania:" ENG="Last:"/>
+      <InspectionEndDate PL="Koniec Ważności:" ENG="Next:"/>
+      <InspectionPrice PL="Koszt:" ENG="Price:"/>
+      <AddButton PL="Dodaj Pojazd" ENG="Add Vehicle"/>
+    </AddVehiclePage>
+
+    <HomePage>
+      <FuelData>
+        <AverageConsumption PL="Średnie spalanie:" ENG="Average Consumption:"/>
+        <LastConsumption PL="Ostatie Spalanie:" ENG="Last Consumption:"/>
+        <LastFuelPrice PL="Ostatnia Cena Paliwa:" ENG="Last Fuel Price:"/>
+      </FuelData>
+      <CostData>
+        <ThisMounth PL="Ten Miesiąc:" ENG="This Mounth:"/>
+        <ThisMounthFuelCost PL="Paliwo:" ENG="Fuel:"/>
+        <ThisMounthOtherCost PL="Serwisy:" ENG="Services:"/>
+        <PreviousMounth PL="Poprzedni Miesiąc:" ENG="Previous Mounth:"/>
+        <PreviousMounthFuelCost PL="Paliwo:" ENG="Fuel:"/>
+        <PreviousMounthOtherCost PL="Serwisy:" ENG="Services:"/>
+      </CostData>
+      <XMLEntriesList>
+        <EntriesListText PL="Ostatnie Wpisy:" ENG="Entries List:"/>
+        <Date PL="Data:" ENG="Date:"/>
+        <Price PL="Koszt:" ENG="Price:"/>
+        <Descryption PL="Opis:" ENG="Descryption:"/>
+      </XMLEntriesList>
+    </HomePage>
+
+    <AddRefuelingPage>
+      <PageTitle PL="Dodaj Tankowanie:" ENG="Add Refueling:"/>
+      <Liters PL="Litry:" ENG="Liters:"/>
+      <PriceForLiter PL="Cena za Litr:" ENG="Price Per Liter:"/>
+      <TotalPrice PL="Cena:" ENG="Total Price:"/>
+      <IsFull PL="Tankowanie Do Pełna:" ENG="Full Refueling:"/>
+      <CarMillage PL="Przebieg:" ENG="Vehicle Millage:"/>
+      <Date PL="Data:" ENG="Date:"/>
+      <Time PL="Czas:" ENG="Time:"/>
+      <Comment PL="Komentarz:" ENG="Comment:"/>
+      <FuelType PL="Typ Paliwa:" ENG="Fuel Type:"/>
+      <ButtonText PL="Dodaj Tankowanie" ENG="Add Refueling"/>
+    </AddRefuelingPage>
+
+    <RefuelingHistoryPage>
+      <RefuelingCost PL="Koszt:" ENG="Cost:"/>
+      <AmountOfFuel PL="Ilość Paliwa:" ENG="Amount Of Fuel:"/>
+      <PricePerLiter PL="Cena za litr:" ENG="Price Per Liter:"/>
+      <Consumption PL="Spalanie:" ENG="Consumption:"/>
+    </RefuelingHistoryPage>
+
+    <StatsPage>
+      <StatsDataPage>
+        <RefuelingStatsTitle PL="Tankowania" ENG="Refuelings"/> 
+        <RefuelingsCount PL="Ilość Tankowań" ENG="Refuelings Count"/>
+        <RefuelingsCost PL="Koszt Wszystkich Tankowań" ENG="Refuelings Cost"/>
+        <GasolineCost PL="Koszt Tankowań - Benzyna" ENG="Gasoline Cost"/>
+        <DieselCost PL="Koszt Tankowań - Diesel" ENG="Diesel Cost"/>
+        <LPGCost PL="Koszt Tankowań - LPG" ENG="LPG Cost"/>
+        <LitersCount PL="Ilość Litrów" ENG="Liters Count"/>
+        <AverageConsumption PL="Średnie Spalanie" ENG="Average Consumption"/>
+
+        <ServicesStatsTitle PL="Serwisy" ENG="Services"/>       
+        <ServicesCount PL="Ilość Serwisów" ENG="Services Count"/> 
+        <ServicesCost PL="Koszt Wszystkich Serwisów" ENG="Services Cost"/> 
+
+        <UserStatsTitle PL="Statystyki Użytkownika" ENG="User Stats"/>
+        <VehiclesCount PL="Ilość Pojazdów" ENG="Vehicles Count"/>
+        <MonthlyMillage PL="Miesięczny Przebieg" ENG="Monthly Millage"/>
+        <YearlyMillage PL="Roczny Przebieg" ENG="Yearly Millage"/>
+        <FuelCostAllVehicles PL="Koszt Paliwa" ENG="Fuel Cost"/>
+        <ServicesCostAllVehicles PL="Koszt Serwisów" ENG="Services Cost"/>
+        <AllCostCount PL="Suma Wszystkich Kosztów" ENG="All Cost Count"/>
+      </StatsDataPage>
+      
+      <StatsChartsPage>
+      </StatsChartsPage>
+    </StatsPage>
+
+    <CostPage>
+      <Cost PL="Koszt:" ENG="Cost:"/>
+      <Type PL="Typ:" ENG="Type:"/>
+      <Date PL="Data:" ENG="Date:"/>
+      <Comment PL="Komentarz:" ENG="Comment:"/>
+    </CostPage>
+
+    <AddCostPage>
+      <PageTitle PL="Dodaj Serwis:" ENG="Add Serwis:"/>
+      <Name PL="Nazwa:" ENG="Name:"/>
+      <Category PL="Kategoria:" ENG="Category:"/>
+      <Price PL="Cena:" ENG="Price:"/>
+      <IsNegative PL="Koszt Negatywny:" ENG="Negative Cost:"/>
+      <Millage PL="Przebieg:" ENG="Millage:"/>
+      <Date PL="Data:" ENG="Date:"/>
+      <Time PL="Czas:" ENG="Time:"/>
+      <Comment PL="Komentarz:" ENG="Comment:"/>
+      <Reminder PL="Przypomnij mi" ENG="Remind me"/>
+      <ButtonText PL="Dodaj Serwis" ENG="Add Serwis"/>
+    </AddCostPage>
+
+    <BackupPanel>
+      <ApiBackupTitle PL="Serwer" ENG="Server"/>
+      <GoogleBackupTitle PL="Google" ENG="Google"/>
+      <ImportButton PL="Importuj" ENG="Import"/>
+      <ExportButton PL="Eksportuj" ENG="Export"/>
+    </BackupPanel>
+
+    <SettingsPage>
+      <Language PL="Język:" ENG="Language:"/>
+      <LanguagePL PL="Polski" ENG="Polish"/>
+      <LanguageENG PL="Angielski" ENG="English"/>
+      <UnitsOfMeasure PL="Jednostki Miary:" ENG="Units Of Measure:"/>
+      <UnitsMetric PL="Metryczne" ENG="Metric"/>
+      <UnitsImperial PL="Imperialne" ENG="Imperial"/>
+      <Currency PL="Waluta:" ENG="Currency:"/>
+      <CurrencyPLN PL="PLN" ENG="PLN"/>
+      <CurrencyUSD PL="USD" ENG="USD"/>
+      <CurrencyEUR PL="EUR" ENG="EUR"/>
+      <ApplyButton PL="Zatwierdź" ENG="Confirm"/>
+    </SettingsPage>
+
+    <CalculatorPage>
+      <TravelCostCalculatorBorder>
+        <Distance PL="Planowana Odległość:" ENG="Distance:"/>
+        <PriceForLiter PL="Cena za Litr:" ENG="Price For Liter:"/>
+        <Consumption PL="Spalanie:" ENG="Consumption:"/>
+        <ResultTravelCost PL="Koszt Podróży:" ENG="Travel Cost:"/>
+        <ResultUsedFuel PL="Zużyte paliwo:" ENG="Used Fuel:"/>
+        <CalculateButton PL="Oblicz" ENG="Calculate"/>
+        <ErrorException PL="Nie można wykonać obliczeń, podane wartości są poprawne?:" ENG="Calculations cannot be performed, are the given values are correct?:"/>
+      </TravelCostCalculatorBorder>
+      <AverageFuelConsumptionCalculatorBorder>
+        <ConsumedFuel PL="Spalone Paliwo:" ENG="Consumed Fuel:"/>
+        <NumberOfKilometersTraveled PL="Ilość Przejechanych Kilometrów:" ENG="Number of Traveled Kilometers:"/>
+        <PriceForLiterOptional PL="Cena za Litr (Opcjonalnie):" ENG="Price for Liter (Optional):"/>
+        <ResultAverageConsumption PL="Średnie Spalanie:" ENG="Average Consumption:"/>
+        <ResultPrice PL="Koszt:" ENG="Cost:"/>
+        <CalculateButton PL="Oblicz" ENG="Calculate"/>
+        <ErrorException PL="Nie można wykonać obliczeń, podane wartości są poprawne?:" ENG="Calculations cannot be performed, are the given values are correct?:"/>
+      </AverageFuelConsumptionCalculatorBorder>
+      <TravelCostCalculator PL="Koszt Podróży" ENG="Travel Cost"/>
+      <AverageFuelConsumptionCalculator PL="Średnie Spalanie" ENG="Average Fuel Consumption"/>
+      <Gasoline PL="Benzyna" ENG="Gasoline"/>
+      <Diesel PL="Diesel" ENG="Diesel"/>
+      <LPG PL="LPG" ENG="LPG"/>
+      <NoVehicleException PL="Brak Pojazdów w Bazie" ENG="No Vehicles Found"/>
+      <CalculateButton PL="Oblicz" ENG="Calculate"/>
+    </CalculatorPage>
+  </MainPanel>
+</Config>
